@@ -1,0 +1,164 @@
+{
+  "entities": [
+    {
+      "id": "cmtsg8fb0000disvit39rlp53",
+      "code": "AVF",
+      "name": "An Viet Foods",
+      "parentEntityId": null
+    },
+    {
+      "id": "cmtsg8fcv000iisviu839fqhc",
+      "code": "BEV",
+      "name": "Beverages",
+      "parentEntityId": "cmtsg8fb0000disvit39rlp53"
+    },
+    {
+      "id": "cmtsg8fe4000misvibc2lt0vf",
+      "code": "CUL",
+      "name": "Culinary",
+      "parentEntityId": "cmtsg8fb0000disvit39rlp53"
+    },
+    {
+      "id": "cmtsg8fbe000eisviqqg4geto",
+      "code": "SNK",
+      "name": "Snacks",
+      "parentEntityId": "cmtsg8fb0000disvit39rlp53"
+    }
+  ],
+  "departments": [
+    {
+      "id": "cmtsg8fev000pisviivnf3zj0",
+      "code": "EC",
+      "name": "EC",
+      "entityId": "cmtsg8fe4000misvibc2lt0vf"
+    },
+    {
+      "id": "cmtsg8fds000lisvio25lh2yq",
+      "code": "EC",
+      "name": "EC",
+      "entityId": "cmtsg8fcv000iisviu839fqhc"
+    },
+    {
+      "id": "cmtsg8fci000hisvihzeu2wu7",
+      "code": "EC",
+      "name": "EC",
+      "entityId": "cmtsg8fbe000eisviqqg4geto"
+    },
+    {
+      "id": "cmtsg8fdg000kisviuoynw4zc",
+      "code": "GT",
+      "name": "GT",
+      "entityId": "cmtsg8fcv000iisviu839fqhc"
+    },
+    {
+      "id": "cmtsg8fc4000gisvifjnzxvdk",
+      "code": "GT",
+      "name": "GT",
+      "entityId": "cmtsg8fbe000eisviqqg4geto"
+    },
+    {
+      "id": "cmtsg8feo000oisviwv5mm1t3",
+      "code": "GT",
+      "name": "GT",
+      "entityId": "cmtsg8fe4000misvibc2lt0vf"
+    },
+    {
+      "id": "cmtsg8fef000nisviqex4sehj",
+      "code": "MT",
+      "name": "MT",
+      "entityId": "cmtsg8fe4000misvibc2lt0vf"
+    },
+    {
+      "id": "cmtsg8fd6000jisvi5au85pxe",
+      "code": "MT",
+      "name": "MT",
+      "entityId": "cmtsg8fcv000iisviu839fqhc"
+    },
+    {
+      "id": "cmtsg8fbo000fisviafdnwe5p",
+      "code": "MT",
+      "name": "MT",
+      "entityId": "cmtsg8fbe000eisviqqg4geto"
+    }
+  ],
+  "periodOptions": [
+    {
+      "id": "2025",
+      "label": "FY 2025"
+    }
+  ],
+  "periods": [
+    {
+      "id": "cmts7zsyn0004vi58ccyuwmii",
+      "monthStart": "2025-01-01T00:00:00.000Z",
+      "fiscalYear": 2025,
+      "fiscalMonth": 1
+    },
+    {
+      "id": "cmtsg8f140001isvia3dhafyy",
+      "monthStart": "2025-02-01T00:00:00.000Z",
+      "fiscalYear": 2025,
+      "fiscalMonth": 2
+    },
+    {
+      "id": "cmtsg8f2f0002isviqxauamdz",
+      "monthStart": "2025-03-01T00:00:00.000Z",
+      "fiscalYear": 2025,
+      "fiscalMonth": 3
+    },
+    {
+      "id": "cmtsg8f2p0003isviqbj2ugxj",
+      "monthStart": "2025-04-01T00:00:00.000Z",
+      "fiscalYear": 2025,
+      "fiscalMonth": 4
+    },
+    {
+      "id": "cmtsg8f2y0004isviwt9cacnj",
+      "monthStart": "2025-05-01T00:00:00.000Z",
+      "fiscalYear": 2025,
+      "fiscalMonth": 5
+    },
+    {
+      "id": "cmtsg8f360005isviktwpz5nl",
+      "monthStart": "2025-06-01T00:00:00.000Z",
+      "fiscalYear": 2025,
+      "fiscalMonth": 6
+    },
+    {
+      "id": "cmtsg8f3m0006isviokwjd24u",
+      "monthStart": "2025-07-01T00:00:00.000Z",
+      "fiscalYear": 2025,
+      "fiscalMonth": 7
+    },
+    {
+      "id": "cmtsg8f3x0007isvia0d3qdxx",
+      "monthStart": "2025-08-01T00:00:00.000Z",
+      "fiscalYear": 2025,
+      "fiscalMonth": 8
+    },
+    {
+      "id": "cmtsg8f470008isvilah0ljgx",
+      "monthStart": "2025-09-01T00:00:00.000Z",
+      "fiscalYear": 2025,
+      "fiscalMonth": 9
+    },
+    {
+      "id": "cmts7zsz20006vi58fyae00fn",
+      "monthStart": "2025-10-01T00:00:00.000Z",
+      "fiscalYear": 2025,
+      "fiscalMonth": 10
+    },
+    {
+      "id": "cmtsg8f4o000aisvin0muz083",
+      "monthStart": "2025-11-01T00:00:00.000Z",
+      "fiscalYear": 2025,
+      "fiscalMonth": 11
+    },
+    {
+      "id": "cmtsg8f50000bisvib4jgeqd4",
+      "monthStart": "2025-12-01T00:00:00.000Z",
+      "fiscalYear": 2025,
+      "fiscalMonth": 12
+    }
+  ]
+}

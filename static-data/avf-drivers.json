@@ -1,0 +1,88 @@
+{
+  "combos": [
+    {
+      "id": "snacks-mt",
+      "entity": "Snacks",
+      "channel": "MT",
+      "vol": 7600,
+      "asp": 52.8,
+      "cogsPerTon": 34.06
+    },
+    {
+      "id": "snacks-gt",
+      "entity": "Snacks",
+      "channel": "GT",
+      "vol": 6270,
+      "asp": 55,
+      "cogsPerTon": 34.06
+    },
+    {
+      "id": "snacks-ec",
+      "entity": "Snacks",
+      "channel": "EC",
+      "vol": 5130,
+      "asp": 57.75,
+      "cogsPerTon": 34.06
+    },
+    {
+      "id": "beverages-mt",
+      "entity": "Beverages",
+      "channel": "MT",
+      "vol": 19632,
+      "asp": 21.12,
+      "cogsPerTon": 13.71
+    },
+    {
+      "id": "beverages-gt",
+      "entity": "Beverages",
+      "channel": "GT",
+      "vol": 16360,
+      "asp": 22,
+      "cogsPerTon": 13.71
+    },
+    {
+      "id": "beverages-ec",
+      "entity": "Beverages",
+      "channel": "EC",
+      "vol": 4908,
+      "asp": 23.1,
+      "cogsPerTon": 13.71
+    },
+    {
+      "id": "culinary-mt",
+      "entity": "Culinary",
+      "channel": "MT",
+      "vol": 5368,
+      "asp": 43.2,
+      "cogsPerTon": 25.98
+    },
+    {
+      "id": "culinary-gt",
+      "entity": "Culinary",
+      "channel": "GT",
+      "vol": 5612,
+      "asp": 45,
+      "cogsPerTon": 25.98
+    },
+    {
+      "id": "culinary-ec",
+      "entity": "Culinary",
+      "channel": "EC",
+      "vol": 1220,
+      "asp": 47.25,
+      "cogsPerTon": 25.98
+    }
+  ],
+  "globals": {
+    "allowActual": 18002,
+    "allowBudget": 18000,
+    "budgetNetRevTarget": 2568366,
+    "opexRatio": 0.22,
+    "opexSplit": {
+      "personnel": 0.55,
+      "marketing": 0.25,
+      "admin": 0.2
+    },
+    "operatingUnits": 72100
+  }
+}

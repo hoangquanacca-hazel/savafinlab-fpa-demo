@@ -1,0 +1,213 @@
+{
+  "actual": {
+    "grossRevenue": 113374802000,
+    "allowances": 825505000,
+    "netRevenue": 112549297000,
+    "cogs": 67288680000,
+    "grossProfit": 45260617000,
+    "grossMarginPct": 0.40214037942858055,
+    "opexPersonnel": 13618465000,
+    "opexMarketing": 6190212000,
+    "opexAdmin": 4952170000,
+    "opexOther": 0,
+    "opex": 24760847000,
+    "ebitda": 20499770000
+  },
+  "budget": {
+    "grossRevenue": 118601194000,
+    "allowances": 825414000,
+    "netRevenue": 117775780000,
+    "cogs": 67288680000,
+    "grossProfit": 50487100000,
+    "grossMarginPct": 0.42867132784007034,
+    "opexPersonnel": 14250870000,
+    "opexMarketing": 6477668000,
+    "opexAdmin": 5182136000,
+    "opexOther": 0,
+    "opex": 25910674000,
+    "ebitda": 24576426000
+  },
+  "variance": {
+    "netRevenue": {
+      "abs": -5226483000,
+      "pct": -0.04437655178339723,
+      "flag": "U"
+    },
+    "grossMarginPct": {
+      "actual": 0.40214037942858055,
+      "budget": 0.42867132784007034
+    },
+    "opex": {
+      "abs": -1149827000,
+      "pct": -0.044376576232636786,
+      "flag": "F"
+    },
+    "ebitda": {
+      "abs": -4076656000,
+      "pct": -0.1658766819878529,
+      "flag": "U"
+    }
+  },
+  "tree": [
+    {
+      "key": "gross",
+      "name": "Gross Revenue",
+      "indent": 0,
+      "computed": false,
+      "category": "REVENUE",
+      "actual": 113374802000,
+      "budget": 118601194000,
+      "varAbs": -5226392000,
+      "varPct": -0.0440669425301064,
+      "flag": "U"
+    },
+    {
+      "key": "allow",
+      "name": "Allowances & Returns",
+      "indent": 0,
+      "computed": false,
+      "category": "REVENUE",
+      "actual": 825505000,
+      "budget": 825414000,
+      "varAbs": 91000,
+      "varPct": 0.00011024770599965593,
+      "flag": "N"
+    },
+    {
+      "key": "nr",
+      "name": "Net Revenue",
+      "indent": 0,
+      "computed": true,
+      "category": "REVENUE",
+      "actual": 112549297000,
+      "budget": 117775780000,
+      "varAbs": -5226483000,
+      "varPct": -0.04437655178339723,
+      "flag": "U"
+    },
+    {
+      "key": "cogs",
+      "name": "Cost of Goods Sold",
+      "indent": 0,
+      "computed": false,
+      "category": "COGS",
+      "actual": 67288680000,
+      "budget": 67288680000,
+      "varAbs": 0,
+      "varPct": 0,
+      "flag": "N"
+    },
+    {
+      "key": "gp",
+      "name": "Gross Profit",
+      "indent": 0,
+      "computed": true,
+      "category": "OTHER",
+      "actual": 45260617000,
+      "budget": 50487100000,
+      "varAbs": -5226483000,
+      "varPct": -0.10352115688958169,
+      "flag": "U"
+    },
+    {
+      "key": "gm",
+      "name": "Gross Margin %",
+      "indent": 0,
+      "computed": true,
+      "category": "OTHER",
+      "actual": 0.40214037942858055,
+      "budget": 0.42867132784007034,
+      "varAbs": -0.026530948411489785,
+      "varPct": -0.06189111957911963,
+      "flag": "U"
+    },
+    {
+      "key": "opexP",
+      "name": "Personnel OpEx",
+      "indent": 1,
+      "computed": false,
+      "category": "OPEX",
+      "actual": 13618465000,
+      "budget": 14250870000,
+      "varAbs": -632405000,
+      "varPct": -0.044376588938078866,
+      "flag": "F"
+    },
+    {
+      "key": "opexM",
+      "name": "Marketing OpEx",
+      "indent": 1,
+      "computed": false,
+      "category": "OPEX",
+      "actual": 6190212000,
+      "budget": 6477668000,
+      "varAbs": -287456000,
+      "varPct": -0.04437646387557991,
+      "flag": "F"
+    },
+    {
+      "key": "opexA",
+      "name": "Admin OpEx",
+      "indent": 1,
+      "computed": false,
+      "category": "OPEX",
+      "actual": 4952170000,
+      "budget": 5182136000,
+      "varAbs": -229966000,
+      "varPct": -0.044376681738958604,
+      "flag": "F"
+    },
+    {
+      "key": "opex",
+      "name": "Total OpEx",
+      "indent": 0,
+      "computed": true,
+      "category": "OPEX",
+      "actual": 24760847000,
+      "budget": 25910674000,
+      "varAbs": -1149827000,
+      "varPct": -0.044376576232636786,
+      "flag": "F"
+    },
+    {
+      "key": "ebitda",
+      "name": "EBITDA",
+      "indent": 0,
+      "computed": true,
+      "category": "OTHER",
+      "actual": 20499770000,
+      "budget": 24576426000,
+      "varAbs": -4076656000,
+      "varPct": -0.1658766819878529,
+      "flag": "U"
+    }
+  ],
+  "waterfall": [
+    {
+      "name": "Budget EBITDA",
+      "value": 24576426000,
+      "kind": "total"
+    },
+    {
+      "name": "Net Revenue Δ",
+      "value": -5226483000,
+      "kind": "delta"
+    },
+    {
+      "name": "COGS Δ",
+      "value": 0,
+      "kind": "delta"
+    },
+    {
+      "name": "OpEx Δ",
+      "value": 1149827000,
+      "kind": "delta"
+    },
+    {
+      "name": "Actual EBITDA",
+      "value": 20499770000,
+      "kind": "total"
+    }
+  ],
+  "elapsedMs": 5.74
+}

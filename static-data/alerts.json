@@ -1,0 +1,27 @@
+{
+  "success": true,
+  "alerts": [
+    {
+      "id": "cmtsc7cdm0000mwviz5moz1kn",
+      "organizationId": "org_sava_cma_demo",
+      "ruleId": "cmtsc1nch0031gwvi97rk7guj",
+      "fingerprint": "5fba546c55e7e7f436f8a55e2b29098e6dc9ab63af88704167e8634325a9ebe6",
+      "status": "OPEN",
+      "severity": "WARNING",
+      "title": "OpEx budget consumption alert",
+      "message": "OpEx consumption is 100.0%, above 85.0%.",
+      "metrics": {
+        "threshold": 0.85,
+        "actualOpex": 2141560000,
+        "budgetOpex": 2141560000,
+        "consumption": 1
+      },
+      "notifiedAt": null,
+      "createdAt": "2026-09-08T07:17:28.796Z",
+      "rule": {
+        "type": "BUDGET_OVERRUN",
+        "name": "Mid-month OpEx budget consumption"
+      }
+    }
+  ]
+}

@@ -1,0 +1,252 @@
+{
+  "year": 2025,
+  "waterfall": [
+    {
+      "name": "Budget EBITDA",
+      "value": 478490470000,
+      "kind": "total"
+    },
+    {
+      "name": "Revenue variance",
+      "value": -113975250000,
+      "kind": "delta"
+    },
+    {
+      "name": "COGS variance",
+      "value": 0,
+      "kind": "delta"
+    },
+    {
+      "name": "OpEx variance",
+      "value": 25074568000,
+      "kind": "delta"
+    },
+    {
+      "name": "Actual EBITDA",
+      "value": 389589788000,
+      "kind": "total"
+    },
+    {
+      "name": "Rolling Forecast Δ",
+      "value": 0,
+      "kind": "delta"
+    },
+    {
+      "name": "Rolling Forecast EBITDA",
+      "value": 389589788000,
+      "kind": "total"
+    }
+  ],
+  "sensitivity": {
+    "priceSteps": [
+      -0.1,
+      -0.05,
+      0,
+      0.05,
+      0.1
+    ],
+    "volumeSteps": [
+      -0.1,
+      -0.05,
+      0,
+      0.05,
+      0.1
+    ],
+    "cells": [
+      {
+        "pricePct": -0.1,
+        "volumePct": -0.1,
+        "ebitda": -80164834120,
+        "ebitdaImpact": -469754622120,
+        "formula": "2472392748000 × (1 + -0.1) × (1 + -0.1)"
+      },
+      {
+        "pricePct": -0.1,
+        "volumePct": -0.05,
+        "ebitda": 31092839540,
+        "ebitdaImpact": -358496948460,
+        "formula": "2472392748000 × (1 + -0.1) × (1 + -0.05)"
+      },
+      {
+        "pricePct": -0.1,
+        "volumePct": 0,
+        "ebitda": 142350513200,
+        "ebitdaImpact": -247239274800,
+        "formula": "2472392748000 × (1 + -0.1) × (1 + 0)"
+      },
+      {
+        "pricePct": -0.1,
+        "volumePct": 0.05,
+        "ebitda": 253608186860,
+        "ebitdaImpact": -135981601140,
+        "formula": "2472392748000 × (1 + -0.1) × (1 + 0.05)"
+      },
+      {
+        "pricePct": -0.1,
+        "volumePct": 0.1,
+        "ebitda": 364865860520,
+        "ebitdaImpact": -24723927480,
+        "formula": "2472392748000 × (1 + -0.1) × (1 + 0.1)"
+      },
+      {
+        "pricePct": -0.05,
+        "volumePct": -0.1,
+        "ebitda": 31092839540,
+        "ebitdaImpact": -358496948460,
+        "formula": "2472392748000 × (1 + -0.05) × (1 + -0.1)"
+      },
+      {
+        "pricePct": -0.05,
+        "volumePct": -0.05,
+        "ebitda": 148531495070,
+        "ebitdaImpact": -241058292930,
+        "formula": "2472392748000 × (1 + -0.05) × (1 + -0.05)"
+      },
+      {
+        "pricePct": -0.05,
+        "volumePct": 0,
+        "ebitda": 265970150600,
+        "ebitdaImpact": -123619637400,
+        "formula": "2472392748000 × (1 + -0.05) × (1 + 0)"
+      },
+      {
+        "pricePct": -0.05,
+        "volumePct": 0.05,
+        "ebitda": 383408806130,
+        "ebitdaImpact": -6180981870,
+        "formula": "2472392748000 × (1 + -0.05) × (1 + 0.05)"
+      },
+      {
+        "pricePct": -0.05,
+        "volumePct": 0.1,
+        "ebitda": 500847461660,
+        "ebitdaImpact": 111257673660,
+        "formula": "2472392748000 × (1 + -0.05) × (1 + 0.1)"
+      },
+      {
+        "pricePct": 0,
+        "volumePct": -0.1,
+        "ebitda": 142350513200,
+        "ebitdaImpact": -247239274800,
+        "formula": "2472392748000 × (1 + 0) × (1 + -0.1)"
+      },
+      {
+        "pricePct": 0,
+        "volumePct": -0.05,
+        "ebitda": 265970150600,
+        "ebitdaImpact": -123619637400,
+        "formula": "2472392748000 × (1 + 0) × (1 + -0.05)"
+      },
+      {
+        "pricePct": 0,
+        "volumePct": 0,
+        "ebitda": 389589788000,
+        "ebitdaImpact": 0,
+        "formula": "2472392748000 × (1 + 0) × (1 + 0)"
+      },
+      {
+        "pricePct": 0,
+        "volumePct": 0.05,
+        "ebitda": 513209425400,
+        "ebitdaImpact": 123619637400,
+        "formula": "2472392748000 × (1 + 0) × (1 + 0.05)"
+      },
+      {
+        "pricePct": 0,
+        "volumePct": 0.1,
+        "ebitda": 636829062800,
+        "ebitdaImpact": 247239274800,
+        "formula": "2472392748000 × (1 + 0) × (1 + 0.1)"
+      },
+      {
+        "pricePct": 0.05,
+        "volumePct": -0.1,
+        "ebitda": 253608186860,
+        "ebitdaImpact": -135981601140,
+        "formula": "2472392748000 × (1 + 0.05) × (1 + -0.1)"
+      },
+      {
+        "pricePct": 0.05,
+        "volumePct": -0.05,
+        "ebitda": 383408806130,
+        "ebitdaImpact": -6180981870,
+        "formula": "2472392748000 × (1 + 0.05) × (1 + -0.05)"
+      },
+      {
+        "pricePct": 0.05,
+        "volumePct": 0,
+        "ebitda": 513209425400,
+        "ebitdaImpact": 123619637400,
+        "formula": "2472392748000 × (1 + 0.05) × (1 + 0)"
+      },
+      {
+        "pricePct": 0.05,
+        "volumePct": 0.05,
+        "ebitda": 643010044670,
+        "ebitdaImpact": 253420256670,
+        "formula": "2472392748000 × (1 + 0.05) × (1 + 0.05)"
+      },
+      {
+        "pricePct": 0.05,
+        "volumePct": 0.1,
+        "ebitda": 772810663940,
+        "ebitdaImpact": 383220875940,
+        "formula": "2472392748000 × (1 + 0.05) × (1 + 0.1)"
+      },
+      {
+        "pricePct": 0.1,
+        "volumePct": -0.1,
+        "ebitda": 364865860520,
+        "ebitdaImpact": -24723927480,
+        "formula": "2472392748000 × (1 + 0.1) × (1 + -0.1)"
+      },
+      {
+        "pricePct": 0.1,
+        "volumePct": -0.05,
+        "ebitda": 500847461660,
+        "ebitdaImpact": 111257673660,
+        "formula": "2472392748000 × (1 + 0.1) × (1 + -0.05)"
+      },
+      {
+        "pricePct": 0.1,
+        "volumePct": 0,
+        "ebitda": 636829062800,
+        "ebitdaImpact": 247239274800,
+        "formula": "2472392748000 × (1 + 0.1) × (1 + 0)"
+      },
+      {
+        "pricePct": 0.1,
+        "volumePct": 0.05,
+        "ebitda": 772810663940,
+        "ebitdaImpact": 383220875940,
+        "formula": "2472392748000 × (1 + 0.1) × (1 + 0.05)"
+      },
+      {
+        "pricePct": 0.1,
+        "volumePct": 0.1,
+        "ebitda": 908792265080,
+        "ebitdaImpact": 519202477080,
+        "formula": "2472392748000 × (1 + 0.1) × (1 + 0.1)"
+      }
+    ],
+    "caveat": "Sensitivity holds COGS and OpEx constant because variable/fixed cost splits are not yet available."
+  },
+  "unitEconomics": {
+    "units": 72100,
+    "revenuePerUnit": 34041480.5963939,
+    "cogsPerUnit": 21148890.47156727,
+    "grossProfitPerUnit": 12892590.12482663,
+    "opexPerUnit": 7489125.6588072125,
+    "ebitdaPerUnit": 5403464.466019417
+  },
+  "unitEconomicsWarning": null,
+  "pnl": {
+    "actual": {
+      "netRevenue": 2454390751000,
+      "cogs": 1524835003000,
+      "grossProfit": 929555748000,
+      "opex": 539965960000,
+      "ebitda": 389589788000
+    }
+  }
+}

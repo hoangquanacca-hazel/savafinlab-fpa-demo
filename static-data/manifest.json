@@ -1,0 +1,88 @@
+{
+  "pnl": [
+    {
+      "key": "2025_all_all",
+      "period": "2025",
+      "entityId": null,
+      "departmentId": null
+    },
+    {
+      "key": "2025_cmtsg8fb0000disvit39rlp53_all",
+      "period": "2025",
+      "entityId": "cmtsg8fb0000disvit39rlp53",
+      "departmentId": null
+    },
+    {
+      "key": "2025_cmtsg8fcv000iisviu839fqhc_all",
+      "period": "2025",
+      "entityId": "cmtsg8fcv000iisviu839fqhc",
+      "departmentId": null
+    },
+    {
+      "key": "2025_cmtsg8fcv000iisviu839fqhc_cmtsg8fds000lisvio25lh2yq",
+      "period": "2025",
+      "entityId": "cmtsg8fcv000iisviu839fqhc",
+      "departmentId": "cmtsg8fds000lisvio25lh2yq"
+    },
+    {
+      "key": "2025_cmtsg8fcv000iisviu839fqhc_cmtsg8fdg000kisviuoynw4zc",
+      "period": "2025",
+      "entityId": "cmtsg8fcv000iisviu839fqhc",
+      "departmentId": "cmtsg8fdg000kisviuoynw4zc"
+    },
+    {
+      "key": "2025_cmtsg8fcv000iisviu839fqhc_cmtsg8fd6000jisvi5au85pxe",
+      "period": "2025",
+      "entityId": "cmtsg8fcv000iisviu839fqhc",
+      "departmentId": "cmtsg8fd6000jisvi5au85pxe"
+    },
+    {
+      "key": "2025_cmtsg8fe4000misvibc2lt0vf_all",
+      "period": "2025",
+      "entityId": "cmtsg8fe4000misvibc2lt0vf",
+      "departmentId": null
+    },
+    {
+      "key": "2025_cmtsg8fe4000misvibc2lt0vf_cmtsg8fev000pisviivnf3zj0",
+      "period": "2025",
+      "entityId": "cmtsg8fe4000misvibc2lt0vf",
+      "departmentId": "cmtsg8fev000pisviivnf3zj0"
+    },
+    {
+      "key": "2025_cmtsg8fe4000misvibc2lt0vf_cmtsg8feo000oisviwv5mm1t3",
+      "period": "2025",
+      "entityId": "cmtsg8fe4000misvibc2lt0vf",
+      "departmentId": "cmtsg8feo000oisviwv5mm1t3"
+    },
+    {
+      "key": "2025_cmtsg8fe4000misvibc2lt0vf_cmtsg8fef000nisviqex4sehj",
+      "period": "2025",
+      "entityId": "cmtsg8fe4000misvibc2lt0vf",
+      "departmentId": "cmtsg8fef000nisviqex4sehj"
+    },
+    {
+      "key": "2025_cmtsg8fbe000eisviqqg4geto_all",
+      "period": "2025",
+      "entityId": "cmtsg8fbe000eisviqqg4geto",
+      "departmentId": null
+    },
+    {
+      "key": "2025_cmtsg8fbe000eisviqqg4geto_cmtsg8fci000hisvihzeu2wu7",
+      "period": "2025",
+      "entityId": "cmtsg8fbe000eisviqqg4geto",
+      "departmentId": "cmtsg8fci000hisvihzeu2wu7"
+    },
+    {
+      "key": "2025_cmtsg8fbe000eisviqqg4geto_cmtsg8fc4000gisvifjnzxvdk",
+      "period": "2025",
+      "entityId": "cmtsg8fbe000eisviqqg4geto",
+      "departmentId": "cmtsg8fc4000gisvifjnzxvdk"
+    },
+    {
+      "key": "2025_cmtsg8fbe000eisviqqg4geto_cmtsg8fbo000fisviafdnwe5p",
+      "period": "2025",
+      "entityId": "cmtsg8fbe000eisviqqg4geto",
+      "departmentId": "cmtsg8fbo000fisviafdnwe5p"
+    }
+  ]
+}
