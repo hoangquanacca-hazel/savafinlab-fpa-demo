@@ -1,0 +1,248 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>FP&amp;A Model Portfolio</title>
+<meta name="description" content="Financial modeling, budgeting & forecasting, management reporting and CFO-support work samples — integrated 3-statement models, rolling forecasts, variance analysis and board packs.">
+<link rel="icon" href="https://www.savafinlab.com.vn/brand/v2/logo-icon.svg" type="image/svg+xml">
+<meta name="theme-color" content="#0B1B3F">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Source+Serif+4:opsz,wght@8..60,500;8..60,700&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+<style>
+:root{
+  --navy:#0B1B3F; --ink:#1a2238; --muted:#5b6478; --line:#dfe3ea;
+  --paper:#f7f6f2; --card:#ffffff; --red:#d23a26; --red-soft:#fbe9e5;
+  --yellow:#fff4cc; --green:#1f7a4d;
+}
+@media (prefers-color-scheme: dark){
+  :root:not([data-theme="light"]){
+    --navy:#e8ecf5; --ink:#e6e8ee; --muted:#9aa3b5; --line:#2a3550;
+    --paper:#0b1220; --card:#121b2e; --red:#f06a52; --red-soft:#2a1714;
+    --yellow:#3a3216; --green:#5cc490;
+  }
+}
+:root[data-theme="dark"]{
+  --navy:#e8ecf5; --ink:#e6e8ee; --muted:#9aa3b5; --line:#2a3550;
+  --paper:#0b1220; --card:#121b2e; --red:#f06a52; --red-soft:#2a1714;
+  --yellow:#3a3216; --green:#5cc490;
+}
+*{box-sizing:border-box}
+html{-webkit-text-size-adjust:100%}
+body{margin:0;background:var(--paper);color:var(--ink);font:16px/1.6 Inter,system-ui,sans-serif;font-feature-settings:"tnum" 1}
+a{color:var(--red)}
+.wrap{max-width:1080px;margin:0 auto;padding:0 16px}
+h1,h2,h3{font-family:"Source Serif 4",Georgia,serif;color:var(--navy);line-height:1.2;margin:0}
+.eyebrow{font-size:12px;letter-spacing:.14em;text-transform:uppercase;color:var(--red);font-weight:600}
+header.hero{padding:56px 0 32px;border-bottom:1px solid var(--line)}
+.hero h1{font-size:clamp(32px,6vw,52px);margin:10px 0 14px}
+.hero p.lead{font-size:18px;color:var(--muted);max-width:720px;margin:0 0 22px}
+.creds{display:flex;flex-wrap:wrap;gap:8px}
+.creds span{border:1px solid var(--line);background:var(--card);padding:4px 10px;border-radius:999px;font-size:13px}
+.note{font-size:13px;color:var(--muted);margin-top:18px}
+section{padding:44px 0;border-bottom:1px solid var(--line)}
+section h2{font-size:clamp(24px,4vw,32px);margin:6px 0 10px}
+.grid-map{display:grid;grid-template-columns:repeat(auto-fit,minmax(230px,1fr));gap:10px;margin-top:18px}
+.chip{background:var(--card);border:1px solid var(--line);border-left:3px solid var(--red);padding:12px 14px;border-radius:6px}
+.chip b{display:block;color:var(--navy)}
+.chip small{color:var(--muted)}
+.case-head{display:flex;flex-wrap:wrap;justify-content:space-between;gap:16px;align-items:flex-end}
+.tags{display:flex;flex-wrap:wrap;gap:6px;margin:12px 0 0}
+.tags span{font-size:12px;background:var(--red-soft);color:var(--red);padding:3px 9px;border-radius:4px;font-weight:500}
+.cols{display:grid;grid-template-columns:1fr 1fr;gap:28px;margin-top:22px}
+@media (max-width:760px){.cols{grid-template-columns:1fr}}
+.cols h3{font-size:18px;margin-bottom:6px}
+.cols ul{margin:0;padding-left:18px}
+.cols li{margin:4px 0}
+.kpis{display:grid;grid-template-columns:repeat(auto-fit,minmax(150px,1fr));gap:1px;background:var(--line);border:1px solid var(--line);border-radius:8px;overflow:hidden;margin-top:24px}
+.kpi{background:var(--card);padding:14px 16px}
+.kpi .v{font-family:"Source Serif 4",Georgia,serif;font-size:26px;color:var(--navy);font-weight:700}
+.kpi .l{font-size:12px;color:var(--muted)}
+.gallery{display:grid;grid-template-columns:repeat(auto-fit,minmax(300px,1fr));gap:14px;margin-top:24px}
+figure{margin:0;background:var(--card);border:1px solid var(--line);border-radius:8px;overflow:hidden}
+figure a{display:block;background:#fff}
+figure img{display:block;width:100%;height:220px;object-fit:cover;object-position:top left}
+figcaption{font-size:13px;padding:8px 12px;color:var(--muted)}
+.dl{display:flex;flex-wrap:wrap;gap:12px;align-items:center;margin-top:22px}
+.btn{display:inline-flex;align-items:center;gap:8px;background:var(--navy);color:var(--paper);text-decoration:none;padding:11px 18px;border-radius:6px;font-weight:600;font-size:14px}
+.btn.ghost{background:transparent;color:var(--navy);border:1px solid var(--navy)}
+.fine{font-size:13px;color:var(--muted)}
+.principles{display:grid;grid-template-columns:repeat(auto-fit,minmax(240px,1fr));gap:16px;margin-top:18px}
+.principles div{background:var(--card);border:1px solid var(--line);border-radius:8px;padding:16px}
+.principles b{color:var(--navy);display:block;margin-bottom:4px}
+.swatch{display:inline-block;width:12px;height:12px;border-radius:2px;vertical-align:-1px;margin-right:4px;border:1px solid var(--line)}
+.topbar{background:#0B1B3F;color:#fff;font-size:14px}.topbar .wrap{display:flex;align-items:center;gap:10px;height:48px}.topbar .wm{font-weight:600;letter-spacing:.01em}.topbar .wm b{color:#ff5a3c;font-weight:600}.topbar .sep{opacity:.4}
+footer{padding:32px 0 48px;font-size:13px;color:var(--muted)}
+</style>
+</head>
+<body>
+<div class="topbar"><div class="wrap"><img src="https://www.savafinlab.com.vn/brand/v2/logo-icon.svg" alt="" width="22" height="22"><span class="wm">sava<b>finlab</b></span><span class="sep">/</span><span>FP&amp;A Portfolio</span></div></div>
+
+<header class="hero">
+  <div class="wrap">
+    <div class="eyebrow">Work samples · FP&amp;A &amp; Financial Modeling</div>
+    <h1>Models a CFO can defend in front of the Board</h1>
+    <p class="lead">Integrated 3-statement models, driver-based budgets, rolling forecasts, variance analysis and board packs — built by a finance controller with 20 years in telecom, precision manufacturing and AI software.</p>
+    <div class="creds">
+      <span>CMA (IMA)</span><span>ACMA, CGMA (CIMA)</span><span>DipIFR (ACCA)</span><span>MSc Finance &amp; Control, Université Jean Moulin Lyon 3</span><span>SAP S/4HANA · Oracle</span>
+    </div>
+    <p class="note">All companies and figures below are fictional and built for demonstration. Downloads are <b>Portfolio Editions</b>: every number, chart and layout is intact, but formulas are converted to values. Full formula versions are shared with clients on request.</p>
+  </div>
+</header>
+
+<section>
+  <div class="wrap">
+    <div class="eyebrow">Where each sample fits</div>
+    <h2>Service map</h2>
+    <div class="grid-map">
+      <div class="chip"><b>Financial Modeling</b><small>3-statement model, ROIC &amp; Economic Profit — Case 1</small></div>
+      <div class="chip"><b>Excel Financial Models</b><small>16-sheet linked workbook with checks — Case 1</small></div>
+      <div class="chip"><b>Budgeting &amp; Forecasting</b><small>AOP, ZBB, scenarios, rolling forecast — Cases 1 &amp; 2</small></div>
+      <div class="chip"><b>Management Reporting</b><small>Budget vs actual, PVM bridge, commentary — Cases 2 &amp; 3</small></div>
+      <div class="chip"><b>Financial Dashboards</b><small>Excel dashboards + live web dashboard — Cases 1, 2 &amp; 4</small></div>
+      <div class="chip"><b>CFO Support</b><small>Board pack, 13-week cash, capital allocation — Case 1</small></div>
+    </div>
+  </div>
+</section>
+
+<section id="case-1">
+  <div class="wrap">
+    <div class="case-head">
+      <div>
+        <div class="eyebrow">Case 1 · FMCG manufacturer (fictional “AVF”)</div>
+        <h2>CFO FP&amp;A Suite — plan, cash, capital and the board pack in one workbook</h2>
+        <div class="tags"><span>3-statement</span><span>AOP</span><span>ZBB</span><span>Scenarios</span><span>13-week cash</span><span>ROIC / EP</span><span>Board pack</span></div>
+      </div>
+    </div>
+    <div class="cols">
+      <div>
+        <h3>The problem</h3>
+        <p>A mid-size snacks, beverages and culinary producer selling through three channels needed one model that takes the plan from revenue drivers all the way to cash, value creation and a decision for the Board — instead of disconnected spreadsheets.</p>
+      </div>
+      <div>
+        <h3>What the model does</h3>
+        <ul>
+          <li>Driver-based AOP (volume × ASP × 9 product-channel combos) and zero-based opex packages</li>
+          <li>Base / Upside / Downside switch flowing through the whole P&amp;L</li>
+          <li>Integrated P&amp;L → Balance Sheet → Cash Flow over 4 years; balance check = 0 every year</li>
+          <li>Working capital &amp; CCC, ROIC vs WACC, Economic Profit, 13-week direct cash forecast</li>
+          <li>Contribution margin, portfolio matrix (Grow / Hold / Selective / Exit), mix and price-elasticity levers</li>
+          <li>Board pack with commentary generated from the numbers — it rewrites itself when inputs change</li>
+        </ul>
+      </div>
+    </div>
+    <div class="kpis">
+      <div class="kpi"><div class="v">16</div><div class="l">linked sheets</div></div>
+      <div class="kpi"><div class="v">689</div><div class="l">formulas in full model, 0 errors</div></div>
+      <div class="kpi"><div class="v">41.0%</div><div class="l">FY26 ROIC vs 11% WACC</div></div>
+      <div class="kpi"><div class="v">0</div><div class="l">balance-sheet check, all years</div></div>
+    </div>
+    <div class="gallery">
+      <figure><a href="img/avf-dashboard.webp" target="_blank" rel="noopener"><img src="img/avf-dashboard.webp" alt="CFO one-page dashboard with KPIs and 4-year charts" loading="lazy"></a><figcaption>CFO one-page dashboard</figcaption></figure>
+      <figure><a href="img/avf-3-statement.webp" target="_blank" rel="noopener"><img src="img/avf-3-statement.webp" alt="Integrated income statement, balance sheet and cash flow" loading="lazy"></a><figcaption>Integrated 3-statement model, check row = 0</figcaption></figure>
+      <figure><a href="img/avf-board-pack.webp" target="_blank" rel="noopener"><img src="img/avf-board-pack.webp" alt="Board exhibit list and automated management commentary" loading="lazy"></a><figcaption>Board pack with automated commentary</figcaption></figure>
+      <figure><a href="img/avf-scenarios.webp" target="_blank" rel="noopener"><img src="img/avf-scenarios.webp" alt="Scenario manager with Base, Upside and Downside" loading="lazy"></a><figcaption>Scenario manager</figcaption></figure>
+      <figure><a href="img/avf-portfolio-matrix.webp" target="_blank" rel="noopener"><img src="img/avf-portfolio-matrix.webp" alt="Portfolio matrix by growth and net contribution margin" loading="lazy"></a><figcaption>Portfolio matrix after cost-to-serve</figcaption></figure>
+      <figure><a href="img/avf-13-week-cash.webp" target="_blank" rel="noopener"><img src="img/avf-13-week-cash.webp" alt="13-week direct cash forecast" loading="lazy"></a><figcaption>13-week cash forecast</figcaption></figure>
+    </div>
+    <div class="dl">
+      <a class="btn" href="files/AVF_CFO_FPA_Suite_Portfolio_Edition.xlsx" download>Download Portfolio Edition (.xlsx)</a>
+      <span class="fine">16 sheets · values only · opens in any Excel version</span>
+    </div>
+  </div>
+</section>
+
+<section id="case-2">
+  <div class="wrap">
+    <div class="eyebrow">Case 2 · Dairy producer (fictional “DairyNova”)</div>
+    <h2>Rolling forecast with budget-vs-actual tracking across two fiscal years</h2>
+    <div class="tags"><span>Rolling forecast</span><span>Revenue build</span><span>Budget vs Actual</span><span>Cash flow</span><span>Scenarios</span></div>
+    <div class="cols">
+      <div>
+        <h3>The problem</h3>
+        <p>Management wanted to roll the forecast forward every month — 12 months of actuals plus 12 months ahead — and see at a glance where the business is drifting from budget, without rebuilding the file each close.</p>
+      </div>
+      <div>
+        <h3>What the model does</h3>
+        <ul>
+          <li>Revenue built from volume × price for four product lines, with monthly growth drivers</li>
+          <li>Pick the cut-off month and scenario; the forecast and cash flow re-roll automatically</li>
+          <li>Budget FY2026 and FY2027 with line-by-line variance, favourable/unfavourable flags and status</li>
+          <li>Cash flow with DSO / DIO / DPO working-capital drivers, capex and tax</li>
+        </ul>
+      </div>
+    </div>
+    <div class="gallery">
+      <figure><a href="img/dairynova-dashboard.webp" target="_blank" rel="noopener"><img src="img/dairynova-dashboard.webp" alt="Rolling forecast dashboard" loading="lazy"></a><figcaption>Rolling forecast dashboard</figcaption></figure>
+      <figure><a href="img/dairynova-budget-dashboard.webp" target="_blank" rel="noopener"><img src="img/dairynova-budget-dashboard.webp" alt="Budget performance dashboard for two fiscal years" loading="lazy"></a><figcaption>Budget performance, FY2026 and FY2027</figcaption></figure>
+      <figure><a href="img/dairynova-variance.webp" target="_blank" rel="noopener"><img src="img/dairynova-variance.webp" alt="Actual versus budget variance analysis" loading="lazy"></a><figcaption>Variance analysis with flags</figcaption></figure>
+    </div>
+    <div class="dl">
+      <a class="btn" href="files/DairyNova_Rolling_Forecast_Portfolio_Edition.xlsx" download>Download Portfolio Edition (.xlsx)</a>
+      <span class="fine">12 sheets · values only · the full version uses XLOOKUP (Excel 365)</span>
+    </div>
+  </div>
+</section>
+
+<section id="case-3">
+  <div class="wrap">
+    <div class="eyebrow">Case 3 · Management reporting</div>
+    <h2>Price / Volume / Mix bridge with board-ready commentary</h2>
+    <div class="tags"><span>PVM analysis</span><span>Variance commentary</span><span>QC checklist</span></div>
+    <div class="cols">
+      <div>
+        <h3>The problem</h3>
+        <p>Revenue came in below plan. The Board needed to know how much was price, how much was volume and how much was mix — and the explanation had to reconcile exactly, not be a narrative guess.</p>
+      </div>
+      <div>
+        <h3>What the model does</h3>
+        <ul>
+          <li>3-way decomposition by product and channel that reconciles exactly (difference = 0)</li>
+          <li>What / So-what / Now-what commentary template, with causes labelled as hypotheses until verified</li>
+          <li>5-point QC checklist before anything goes to the Board</li>
+        </ul>
+      </div>
+    </div>
+    <div class="gallery">
+      <figure><a href="img/pvm-bridge.webp" target="_blank" rel="noopener"><img src="img/pvm-bridge.webp" alt="Price, quantity and mix decomposition table" loading="lazy"></a><figcaption>PVM bridge — fully reconciled</figcaption></figure>
+    </div>
+    <div class="dl">
+      <a class="btn" href="files/AVF_PVM_Variance_Commentary_Portfolio_Edition.xlsx" download>Download Portfolio Edition (.xlsx)</a>
+      <span class="fine">5 sheets · values only</span>
+    </div>
+  </div>
+</section>
+
+<section id="case-4">
+  <div class="wrap">
+    <div class="eyebrow">Case 4 · Beyond Excel</div>
+    <h2>Live web dashboards</h2>
+    <p>The same thinking, delivered as browser apps: what-if drivers that recalculate the P&amp;L instantly, and a driver-based budgeting cockpit.</p>
+    <div class="dl">
+      <a class="btn ghost" href="https://fpa.savafinlab.com.vn/" target="_blank" rel="noopener">Strategic Decision Command Center ↗</a>
+      <a class="btn ghost" href="https://fpna.savafinlab.com.vn/" target="_blank" rel="noopener">P&amp;L Cockpit ↗</a>
+    </div>
+    <p class="fine">The Command Center interface is in Vietnamese (built for a training programme); the P&amp;L Cockpit has an English switch.</p>
+  </div>
+</section>
+
+<section>
+  <div class="wrap">
+    <div class="eyebrow">How I build</div>
+    <h2>Model standards</h2>
+    <div class="principles">
+      <div><b>Inputs are visible</b><span class="swatch" style="background:#fff2cc"></span>yellow = source data, <span class="swatch" style="background:#fbe0d6"></span>pink = labelled assumption. Nothing is hidden in a formula.</div>
+      <div><b>Every model checks itself</b>Balance sheet = 0, PVM reconciliation = 0, opex packages = 100%. A broken check is visible on screen.</div>
+      <div><b>Numbers lead to decisions</b>Each model ends in a recommendation — approve, cut, shift, or close a gap — not just a table.</div>
+      <div><b>Built to be handed over</b>Home page, navigation buttons and a how-to note, so your team can run it after I leave.</div>
+    </div>
+  </div>
+</section>
+
+<footer>
+  <div class="wrap">Savafinlab · FP&amp;A work samples · All entities and figures are fictional. Not financial advice.</div>
+</footer>
+
+</body>
+</html>
